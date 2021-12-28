@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "promotions",
+  "info": {
+    "singularName": "promotion",
+    "pluralName": "promotions",
+    "displayName": "Promotion"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ID_Promotion": {
+      "type": "string"
+    },
+    "PromotionName": {
+      "type": "string"
+    },
+    "PercentReduction": {
+      "type": "string"
+    },
+    "ConditionsApply": {
+      "type": "string"
+    },
+    "PromotionContent": {
+      "type": "string"
+    }
+  }
+}

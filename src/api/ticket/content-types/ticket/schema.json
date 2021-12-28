@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tickets",
+  "info": {
+    "singularName": "ticket",
+    "pluralName": "tickets",
+    "displayName": "Ticket"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ID_Ticket": {
+      "type": "string"
+    },
+    "QR": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "IsPay": {
+      "type": "boolean"
+    },
+    "Price": {
+      "type": "string"
+    }
+  }
+}

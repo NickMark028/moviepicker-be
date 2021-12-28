@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "members",
+  "info": {
+    "singularName": "member",
+    "pluralName": "members",
+    "displayName": "Member"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ID_Member": {
+      "type": "string"
+    },
+    "Name": {
+      "type": "string"
+    },
+    "Address": {
+      "type": "string"
+    },
+    "Birthday": {
+      "type": "date"
+    },
+    "CMND": {
+      "type": "string"
+    },
+    "Phone": {
+      "type": "string"
+    },
+    "Sex": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "string"
+    },
+    "Password": {
+      "type": "string"
+    },
+    "BankName": {
+      "type": "string"
+    },
+    "BankAccountNumber": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "admins",
+  "info": {
+    "singularName": "admin",
+    "pluralName": "admins",
+    "displayName": "Admin"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ID_Admin": {
+      "type": "string"
+    },
+    "Name": {
+      "type": "string"
+    },
+    "Birthday": {
+      "type": "date"
+    },
+    "Address": {
+      "type": "string"
+    },
+    "CMND": {
+      "type": "string"
+    },
+    "Phone": {
+      "type": "string"
+    },
+    "Sex": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "string"
+    },
+    "Password": {
+      "type": "string"
+    },
+    "StaffType": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "showtimes",
+  "info": {
+    "singularName": "showtime",
+    "pluralName": "showtimes",
+    "displayName": "Showtime"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ID_Showtime": {
+      "type": "string"
+    },
+    "StartTime": {
+      "type": "datetime"
+    },
+    "EndTime": {
+      "type": "datetime"
+    },
+    "ShowDate": {
+      "type": "date"
+    },
+    "IsCancel": {
+      "type": "boolean"
+    }
+  }
+}

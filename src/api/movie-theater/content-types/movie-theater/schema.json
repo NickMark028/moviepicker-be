@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "movie_theaters",
+  "info": {
+    "singularName": "movie-theater",
+    "pluralName": "movie-theaters",
+    "displayName": "MovieTheater"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ID_MovieTheater": {
+      "type": "string"
+    },
+    "MovieTheaterName": {
+      "type": "string"
+    },
+    "Address": {
+      "type": "string"
+    },
+    "AuditoriumAmount": {
+      "type": "integer"
+    }
+  }
+}

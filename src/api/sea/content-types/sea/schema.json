@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "seas",
+  "info": {
+    "singularName": "sea",
+    "pluralName": "seas",
+    "displayName": "Seat",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ID_Seat": {
+      "type": "string"
+    },
+    "SeatName": {
+      "type": "string"
+    },
+    "SeatType": {
+      "type": "string"
+    }
+  }
+}
