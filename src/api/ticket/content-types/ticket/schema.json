@@ -4,7 +4,8 @@
   "info": {
     "singularName": "ticket",
     "pluralName": "tickets",
-    "displayName": "Ticket"
+    "displayName": "Ticket",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -14,19 +15,13 @@
     "ID_Ticket": {
       "type": "string"
     },
-    "QR": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "type": "media",
-      "multiple": true
-    },
     "IsPay": {
       "type": "boolean"
     },
     "Price": {
+      "type": "string"
+    },
+    "QR": {
       "type": "string"
     }
   }
